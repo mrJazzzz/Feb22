@@ -1,0 +1,6 @@
+1.Test fajlove kopirati u putanju projekta: putanja se dobija desnim klikom na projekat (ne na solution) -> open folder in file explorer
+2.Podesiti standard na C++17: desni klik na projekat -> Configuration Properties -> General -> C++ Language Standard -> ISO C++17
+3.Headere implementiranih klasa uvoziti na vrh source.cpp fajla bilo kojim redom, ovo je nacin na koji ce testovi biti pokretani
+
+Nije neophodno komentarisati testove, testovi ce automatski biti pokrenuti nad novim source.cpp fajlom sa includovanim svim implementiranim .h fajlovima.
+Runtime greske dovodice do gubitka svih poena nakon trenutka greske.
